@@ -2,9 +2,18 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Name: ");
-        Scanner console = new Scanner(System.in);
-        var user = console.nextLine();
-        System.out.println("Hello " + user);
+        for (var counter = 0; counter < 5; counter++) {
+            if (counter % 2 != 0) {
+                break;
+            }
+            System.out.println("counter = " + counter);
+        }
+
+        for (var counter = 0; counter < 5; counter++) {
+            if (counter % 2 != 0) {
+                continue;
+            }
+            System.out.println("counter = " + counter);
+        }
     }
 }
