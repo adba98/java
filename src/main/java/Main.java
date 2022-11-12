@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        var myVariable = 10;
-        System.out.println("myVariable = " + myVariable);
-
-        var myVariable2 = "string";
-        System.out.println("myVariable2 = " + myVariable2);
+        var name = "Oscar";
+        System.out.println("New line: \n" + name);
+        System.out.println("Tab: \t" + name);
+        System.out.println("Backspace: \b" + name);
+        System.out.println("Single quote: \'" + name + "\'");
+        System.out.println("Double quote: \"" + name + "\"");
     }
 }
