@@ -6,6 +6,9 @@
 
 This project contains code developed within the **Universidad Java - De Cero a Experto** course
 
+## Issues
+* Stack and Heap memory
+
 <!-- Markdown links -->
 [udemy-image]: https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=Udemy&logoColor=white
 [udemy-url]: https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-master/

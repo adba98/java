@@ -1,19 +1,10 @@
-import java.util.Scanner;
+import operations.Aritmetica;
 
 public class Main {
     public static void main(String[] args) {
-        for (var counter = 0; counter < 5; counter++) {
-            if (counter % 2 != 0) {
-                break;
-            }
-            System.out.println("counter = " + counter);
-        }
+        Aritmetica aritmetica2 = new Aritmetica(2, 3);
+        System.out.println("aritmetica2.a = " + aritmetica2.a);
+        System.out.println("aritmetica2.b = " + aritmetica2.b);
 
-        for (var counter = 0; counter < 5; counter++) {
-            if (counter % 2 != 0) {
-                continue;
-            }
-            System.out.println("counter = " + counter);
-        }
     }
 }
