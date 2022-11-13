@@ -1,15 +1,14 @@
-import domain.Persona;
+import domain.Client;
+import domain.Employed;
+
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        Persona persona = new Persona("Oscar", 5000, false);
-        print(persona);
+        Employed employed = new Employed("Oscar", 500);
+        System.out.println(employed.toString());
 
-        Persona persona2 = new Persona("Adrian", 3000, false);
-        print(persona2);
-    }
-
-    public static void print(Persona persona) {
-        System.out.println("persona = " + persona);
+        Client client = new Client("Adrian", 'F', 25, "Cr 88", new Date(), true);
+        System.out.println(client.toString());
     }
 }
