@@ -5,9 +5,14 @@ public class Employed extends Person {
     private int salary;
     private static int counterEmployed;
 
-    public Employed(String name, int salary) {
-        super(name);
+    public Employed() {
         this.id = ++Employed.counterEmployed;
+    }
+
+    public Employed(String name, int salary) {
+        // super(name);
+        this();
+        this.name = name;
         this.salary = salary;
     }
 

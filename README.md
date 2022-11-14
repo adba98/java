@@ -10,6 +10,8 @@ This project contains code developed within the **Universidad Java - De Cero a E
 * Stack and Heap memory
 * Static and Dynamic context
 * Simple inheritance
+* Constructor and method overloading
+* This vs Super
 
 <!-- Markdown links -->
 [udemy-image]: https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=Udemy&logoColor=white
